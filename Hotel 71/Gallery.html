@@ -1,0 +1,55 @@
+<html>
+<html>
+<head>
+<title>Welcome</title>
+</head>
+<form>
+<table border="1"align="center" width="60%" >
+	
+			<tr background="hotel.jpg"><th colspan="3" align="right" width="60%">
+			<label><center><h1>Hotel 71<h1><center></label>
+			</tr>
+			<tr background="white.jpg">
+				<td align="center"> 
+				     <a href="Welcome.html">Home</a> <label>||</label>
+				     <a href="Promotional.html">Promotional Offers</a> <label>||</label>
+					 <a href="Customer.html">Facilities</a></li> <label>||</label>
+				     <a href="About.html">About The Hotel</a>  <label>||</label>
+					 <a href="Login.html">Login</a> <label>||</label>
+					 <a href="Contract.html">Contract Us</a> <br>
+					
+					 
+				</td>
+				 
+			</tr>
+			<tr>
+			   <td colspan="3">
+			    <script>
+				var images=["hotel.jpg","lobby.jpg","pool.jpg","res1.jpg","gal2.jpg","gal1.jpg"];
+							
+				var i=0;
+				
+				function slides(){
+				document.getElementById("slideshow").src=images[i];
+				if(i<(images.length-1))
+				i++;
+				else
+				i=0;
+				
+				}
+				
+			   setInterval(slides,2000)
+			   </script>
+			   <img src= "hotel.jpg" id="slideshow" width="100%">
+			  
+			   </td>
+			</tr>
+			
+			<tr>
+			     <th background="hotel.jpg"><h3>www.hotel71.com</h3>
+		    </tr>
+	</table>
+</form>
+
+</html>
+</html>
